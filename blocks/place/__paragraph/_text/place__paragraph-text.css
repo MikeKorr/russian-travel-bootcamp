@@ -1,4 +1,4 @@
-.place__paragraph_text {
+.place__paragraph-text {
     margin: 0;
     font-weight: 400;
     font-size: 18px;
@@ -6,24 +6,24 @@
     color: #FFFFFF;
 }
 
-.place__paragraph_text:nth-child(2) {
+.place__paragraph-text:nth-child(2) {
     margin-top: 26px;
 }
 
 @media (max-width:1024px) {
-    .place__paragraph_text:nth-child(2) {
+    .place__paragraph-text:nth-child(2) {
         margin-top: 27px;
     }
 }
 
 @media (max-width:768px) {
-    .place__paragraph_text:nth-child(2) {
+    .place__paragraph-text:nth-child(2) {
         margin-top: 25px;
     }
 }
 
 @media (max-width:768px) {
-        .place__paragraph_text {
+        .place__paragraph-text {
         font-size: 16px;  
     }
 }
