@@ -14,7 +14,7 @@
 
 @media (max-width:768px) {
     .cover {
-        width: calc(100%-48px);
+        width: calc(100% - 48px);
     }
 }
 

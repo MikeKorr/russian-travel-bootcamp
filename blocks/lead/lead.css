@@ -1,13 +1,13 @@
 .lead {
 margin: 48px auto 0;
-width: calc(100%-296px);
+width: calc(100% - 296px);
 max-width: 984px;
 }
 
 @media (max-width:1024px) {
     .lead {
         max-width: 928px;
-        width: calc(100%-96px);   
+        width: calc(100% - 96px);   
     } 
 }
 

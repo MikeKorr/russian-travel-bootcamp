@@ -16,7 +16,7 @@
 
 @media (max-width:768px) {
     .header {
-        width: calc(100%-48px);
+        width: calc(100% - 48px);
         max-width: 720px;
         margin-bottom: 48px;  
     }
@@ -24,7 +24,7 @@
 
 @media (max-width:320px) {
     .header {
-        width: calc(100%-32px);
+        width: calc(100% - 32px);
         max-width: 320px;
         margin-bottom: 48px;
     }
