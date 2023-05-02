@@ -1,0 +1,19 @@
+.header__lang-link_selected {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+width: 30px;
+height: 28px;
+font-size: 24px;
+line-height: 28px;
+color: #ffff;
+}
+
+@media (max-width:320px) {
+    .header__lang-link_selected {
+        width: 22px;
+        height: 20px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+}

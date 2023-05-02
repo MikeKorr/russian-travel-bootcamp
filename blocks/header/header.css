@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    margin: 28px auto 56px;
+    max-width: 1184px;
+    max-width: calc(100% - 96px);
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+@media (max-width:1024px) {
+    .header {
+        max-width: 928px;
+        margin-bottom: 48px;  
+    }
+}
+
+@media (max-width:768px) {
+    .header {
+        width: calc(100%-48px);
+        max-width: 720px;
+        margin-bottom: 48px;  
+    }
+}
+
+@media (max-width:320px) {
+    .header {
+        width: calc(100%-32px);
+        max-width: 320px;
+        margin-bottom: 48px;
+    }
+}
