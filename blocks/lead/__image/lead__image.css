@@ -1,26 +1,27 @@
 .lead__image {
 margin: 56px auto 0;
-width: 984px;
-height: 615px;   
+width: 100%;
+max-width: 984px;
+max-height: 615px;   
 }
 
-@media (max-width:1024px) {
+@media (min-width: 769px ) and (max-width:1024px) {
     .lead__image {
-        width: 928;
-        height: 580px;   
+        max-width: 928;
+        max-height: 580px;   
     } 
 }
 
-@media (max-width:768px) {
+@media (min-width:321px) and (max-width:768px) {
     .lead__image {
-        width: 100%;
-        height: 480px; 
+        max-width: 768px;
+        max-height: 480px; 
     }
 }
  
 @media (max-width:320px) { 
     .lead__image {
-        max-width: 100%;
-        height: 200; 
+        max-width: 320px;
+        max-height: 200; 
     }
 } 

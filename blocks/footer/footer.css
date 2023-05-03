@@ -13,14 +13,14 @@
 }
 
 @media (max-width:768px) {
-    .cover {
+    .footer {
         width: calc(100% - 48px);
     }
 }
 
 @media (max-width:320px) {
-    .cover {
-        margin-left: 16px;
+    .footer {
+        margin: 64px auto 24px;
         max-width: 186px;
         flex-direction: column;
     }

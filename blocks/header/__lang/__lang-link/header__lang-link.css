@@ -10,14 +10,11 @@ text-decoration: none;
 }
 
 .header__lang-link:first-child {
-    text-decoration: underline;
     margin-left: 0;
 }
 
-@media (max-width:320px) {
+@media (max-width:425px) {
     .header__lang-link {
-        width: 22px;
-        height: 20px;
         font-size: 18px;
         line-height: 20px;
     }

@@ -12,15 +12,12 @@
     margin-right: 0; 
 }
 
-@media (max-width:320px) {
+@media (max-width: 425px) {
     .footer__link:last-child {
         margin-right: 0;
-        margin-bottom: 48px;
+        margin-bottom: 0;
     }
-    
-}
 
-@media (max-width:320px) {
     .footer__link {
         margin-right: 0;
         margin-bottom: 32px;
