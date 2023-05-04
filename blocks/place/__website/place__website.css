@@ -1,14 +1,14 @@
 .place__website {
-margin: 0;
-align-self: end;
-max-width: 456px;
-grid-column: 2;
-grid-row: 1;
+  margin: 0;
+  align-self: end;
+  max-width: 456px;
+  grid-column: 2;
+  grid-row: 1;
 }
 
-@media (max-width:320px) {
-    .place__website {
+@media (max-width: 320px) {
+  .place__website {
     max-width: 288px;
     margin-bottom: 32px;
-    }
+  }
 }

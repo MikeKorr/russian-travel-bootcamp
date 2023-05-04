@@ -1,12 +1,20 @@
 .footer__list {
-    margin: 0;
-    display: flex;
+  margin: 0;
+  display: flex;
 }
 
-@media (max-width:320px) {
-    .footer__list {
-        margin-left: 16px;
-        max-width: 186px;
-        flex-direction: column;
-    }
+@media (min-width: 321px) and (max-width: 768px) {
+  .footer__list {
+    margin-left: 16px;
+    max-width: 186px;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer__list {
+    margin-left: 16px;
+    max-width: 186px;
+    flex-direction: column;
+  }
 }

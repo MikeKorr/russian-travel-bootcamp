@@ -1,18 +1,16 @@
 .intro__list {
-max-width: 690px;
-margin: 33px 0 0;
-padding: 0;
-list-style: none;
-font-weight: 700;
-font-size: 12px;
-line-height: 18px;
-color: #FFFFFF;
+  max-width: 690px;
+  margin: 33px 0 0;
+  padding: 0;
+  list-style: none;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ffffff;
 }
 
-@media (max-width:320px) { 
-    .intro__list {
-        max-width: 288px;
-        max-height: 90px;
-        
-    }
-} 
+@media (max-width: 320px) {
+  .intro__list {
+    max-width: 288px;
+  }
+}

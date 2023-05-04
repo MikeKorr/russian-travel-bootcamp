@@ -1,36 +1,43 @@
 .cover__background {
-    background-image: url(../../../images/cover-trains.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    max-width: 1184px;
-    min-height: 740px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-decoration: none;
-    position: relative;
-    z-index: 998;
-    }
+  background-image: url(../../../images/cover-trains.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 1184px;
+  min-height: 740px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  position: relative;
+  z-index: 998;
+}
 
-    @media (max-width:1024px) {
-        .cover__background {
-            max-width: 1024px;
-            min-height: 640px;
-        }
-    }
-    
-    @media (max-width:768px) {
-        .cover__background{
-            max-width: 768px;
-            min-height: 468px;
-        }
-    }
-    
-    @media (max-width:320px) {
-        .cover__background {
-            max-width: 320px;
-            min-height: 200px;
-        }
-    }
+@media (max-width: 1024px) {
+  .cover__background {
+    max-width: 1024px;
+    min-height: 640px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover__background {
+    max-width: 768px;
+    min-height: 468px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 767px) {
+  .cover__background {
+    max-width: 320px;
+    min-height: 200px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover__background {
+    max-width: 320px;
+    min-height: 200px;
+  }
+}

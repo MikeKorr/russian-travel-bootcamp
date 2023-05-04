@@ -1,24 +1,25 @@
 .lead {
-margin: 0 auto;
-width: calc(100% - 296px);
-max-width: 984px;
+  margin: 0 auto;
+  width: calc(100% - 296px);
+  max-width: 984px;
 }
 
-@media (min-width: 769px ) and (max-width:1024px) {
-    .lead {
-        max-width: 928px;
-        width: calc(100% - 96px);   
-    } 
+@media (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+    width: calc(100% - 96px);
+  }
 }
 
-@media (min-width:426px) and (max-width:768px) {
-    .lead {
-        max-width: 100%;  
-    }
+@media (max-width: 768px) {
+  .lead {
+    width: 100%;
+    max-width: 768px;
+  }
 }
- 
-@media (max-width:425px) { 
-    .lead {
-        max-width: 100%; 
-    }
+
+@media (max-width: 320px) {
+  .lead {
+    max-width: 320px;
+  }
 }
