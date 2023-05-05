@@ -3,9 +3,8 @@
   display: flex;
 }
 
-@media (min-width: 321px) and (max-width: 768px) {
+@media (max-width: 690px) {
   .footer__list {
-    margin-left: 16px;
     max-width: 186px;
     flex-direction: column;
   }
@@ -13,7 +12,6 @@
 
 @media (max-width: 320px) {
   .footer__list {
-    margin-left: 16px;
     max-width: 186px;
     flex-direction: column;
   }

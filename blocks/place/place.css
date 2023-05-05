@@ -1,5 +1,4 @@
 .place {
-  margin: 0;
   width: 100%;
   max-width: 984px;
   display: grid;
@@ -24,16 +23,16 @@
 @media (max-width: 768px) {
   .place {
     margin-bottom: 73px;
-    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     column-gap: 28px;
   }
 }
 
-@media (min-width: 321px) and (max-width: 767px) {
+@media (max-width: 690px) {
   .place {
-    margin-bottom: 50px;
-    row-gap: 32px;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
   }
 }
 
@@ -41,6 +40,5 @@
   .place {
     margin-bottom: 50px;
     row-gap: 32px;
-    display: block;
   }
 }

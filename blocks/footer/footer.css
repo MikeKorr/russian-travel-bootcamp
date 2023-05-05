@@ -1,9 +1,9 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin: 92px auto 24px;
   max-width: 1184px;
+  width: calc(100% - 96px);
 }
 
 @media (max-width: 1024px) {
@@ -18,9 +18,17 @@
   }
 }
 
+@media (max-width: 690px) {
+  .cover__title {
+    width: 100%;
+    max-width: 690px;
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 320px) {
   .footer {
-    margin: 64px 0 24px;
+    margin: 64px 16px 0 24px;
     max-width: 186px;
     flex-direction: column;
   }
