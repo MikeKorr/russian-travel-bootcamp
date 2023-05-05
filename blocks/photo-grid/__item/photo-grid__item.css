@@ -1,12 +1,12 @@
 .photo-grid__item {
-  margin: 0;
   width: 100%;
   max-width: 284px;
+  max-height: 213px;
   object-fit: cover;
   object-position: center;
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .photo-grid__item {
     max-width: 300px;
     max-height: 225px;
@@ -22,7 +22,7 @@
 
 @media (max-width: 320px) {
   .photo-grid__item {
-    width: 288px;
-    height: 216px;
+    max-width: 288px;
+    max-height: 216px;
   }
 }
